@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookify - Kontakt</title>
+</head>
+
+<body bgcolor="#F6DDCC" text="#333333" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+
+    <nav>
+        <table width="100%" bgcolor="#4C956C" cellpadding="10">
+            <tr>
+                <td align="center"><a href="index.html" style="color: white; text-decoration: none;"><b>Početna</b></a></td>
+                <td align="center"><a href="kategorije.html" style="color: white; text-decoration: none;"><b>Kategorije</b></a></td>
+                <td align="center"><a href="bestseleri.html" style="color: white; text-decoration: none;"><b>Bestseleri</b></a></td>
+                <td align="center"><a href="kontakt.html" style="color: white; text-decoration: none;"><b>Kontakt</b></a></td>
+            </tr>
+        </table>
+    </nav>
+
+    
+    <header>
+        <table width="100%" bgcolor="#7D3C98" cellpadding="50">
+            <tr>
+                <td align="center">
+                    <h1 style="color: white;">Kontaktirajte Nas</h1>
+                    <p>Imate pitanja? Rado ćemo vam pomoći!</p>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+   
+    <main>
+        <table width="100%" bgcolor="#EBEAFF" cellpadding="50">
+            <tr>
+                <td align="center">
+                    <h2>Kontakt Forma</h2>
+                    <form method="POST" action="mailto:timur@bookify.com" enctype="text/plain">
+                        <h3>Polja za unos</h3>
+                      <p>Ime:</p> <input type="text" name="ime" size="30" required><br><br>
+                      <p>Email:</p><input type="email" name="email" size="30" required><br><br>
+
+                  
+                        <h3>Poruka</h3>
+                        <textarea name="poruka" rows="5" cols="40" placeholder="Unesite vašu poruku"></textarea><br><br>
+
+                        
+                        <h3>Vaši Interesi</h3>
+                        <input type="checkbox" name="zanr" value="fikcija"> Fikcija<br>
+                        <input type="checkbox" name="zanr" value="naucna-fantastika"> Naučna Fantastika<br>
+                        <input type="checkbox" name="zanr" value="ljubavni-romani"> Ljubavni Romani<br><br>
+
+            
+                        <h3>Da li ste već kupovali kod nas?</h3>
+                        <input type="radio" name="kupovina" value="da" checked> Da<br>
+                        <input type="radio" name="kupovina" value="ne"> Ne<br><br>
+
+              
+                        <h3>Odaberite Vaš Omiljeni Žanr</h3>
+                    <select name="zanr">
+                    <option value="fikcija">Fikcija</option>
+                     <option value="naucna-fantastika">Naučna Fantastika</option>
+                    <option value="ljubavni-romani">Ljubavni Romani</option>
+                    <option value="misterije">Misterije</option>
+                    <option value="biografije">Biografije</option>
+                    <option value="edukativne-knjige">Edukativne Knjige</option>
+                    <option value="fantazija">Fantazija</option>
+                    <option value="horor">Horor</option>
+                </select><br><br>
+
+                
+                        <input type="submit" value="Pošalji">
+                        <input type="reset" value="Poništi">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+
+    <footer>
+        <table width="100%" bgcolor="#4C956C" cellpadding="10">
+            <tr>
+                <td align="center">
+                    <span style="color: white;">Bookify</span>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+
+</html>
